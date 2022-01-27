@@ -305,7 +305,8 @@ namespace Tizen.NUI.Components
                         //need to consider horizontal/vertical!
                         WidthSpecification = LayoutParamPolicies.MatchParent,
                         HeightSpecification = 2,
-                        ExcludeLayouting = true
+                        ExcludeLayouting = true,
+                        AccessibilityHidden = true
                     };
                     layoutChanged = true;
                     Add(itemSeperator);
